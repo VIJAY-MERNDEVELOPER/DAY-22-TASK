@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Poppins:wght@300;400;800&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Poppins:wght@300;400;500;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Poppins:wght@300;400;500;800&display=swap");
 
 body {
-  background-color:  #007bff;
-  background: linear-gradient(right , #0062E6, #33AEFF);
+  background-color: #007bff;
+  background: linear-gradient(to right, #0062e6, #33aeff);
   justify-content: center;
   align-items: center;
 }
@@ -11,17 +11,13 @@ body {
 .container {
   display: flex;
   flex-direction: row;
-  background-color: #007bff;
-  /* height: fit-content;
-  width: fit-content; */
   justify-content: center;
   align-items: center;
 }
 
-
 h6 {
   text-align: center;
-  /* transition: color 2s ease-in-out; */
+
   font-weight: bold;
   font-size: small;
   margin-bottom: -30px;
@@ -37,13 +33,11 @@ h3 {
   margin-bottom: 0px;
 }
 
-
-
 .card {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  width: fit-content;
+  width: 210px;
   gap: 2rem;
   padding: 15px;
   border: 2px solid black;
@@ -52,9 +46,11 @@ h3 {
   background-color: white;
 }
 
+.card:hover {
+  transform: scale(1.02);
+}
 
-
-.dis-det{
+.dis-det {
   opacity: 0.5;
 }
 
@@ -62,21 +58,25 @@ h3 {
   font-size: 60%;
   background-color: #007bff;
   border-radius: 50px;
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
   font-weight: bold;
   padding: 1rem;
   opacity: 0.7;
   transition: all 0.2s;
 }
+button:hover {
+  transform: scale(1.06);
+}
 
 span {
   margin: -10px;
-  font-family: 'Pixelify Sans', sans-serif;
-font-family: 'Poppins', sans-serif;
+  font-family: "Pixelify Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  margin-left: 0.3rem;
 
-  /* font-weight: bold; */
-  
-  font-size: 10px;
+  font-weight: 500;
+
+  font-size: 13px;
 }
 
 @media screen and (max-width: 426px) {
