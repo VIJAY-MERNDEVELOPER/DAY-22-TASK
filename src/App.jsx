@@ -29,7 +29,7 @@ function MyCard(props) {
         <button id="btn-nme">BUTTON</button>
       </div>
       <div className="card">
-        <h6>PRO</h6>
+        <h6>PLUS</h6>
         <h3>$9/month</h3>
 
         <span className="sub-det">&#10003; 5 Users</span>
@@ -44,7 +44,7 @@ function MyCard(props) {
         <button id="btn-nme">BUTTON</button>
       </div>
       <div className="card">
-        <h6>PLUS</h6>
+        <h6>PRO</h6>
         <h3>$49/month</h3>
 
         <span className="sub-det">&#10003; Unlimited Users</span>
