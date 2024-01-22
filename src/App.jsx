@@ -10,7 +10,7 @@ function App() {
   );
 }
 
-function MyCard(props) {
+function MyCard() {
   return (
     <div className="container">
       <div className="card">
@@ -21,8 +21,12 @@ function MyCard(props) {
         <span className="sub-det">&#10003; 50GB Storage</span>
         <span className="sub-det">&#10003; Unlimited Public Projects</span>
         <span className="sub-det"> &#10003; Community Access</span>
-        <span className="sub-det dis-det">&#10007; Unlimited Private Projects</span>
-        <span className="sub-det dis-det">&#10007; Dedicated Phone Support</span>
+        <span className="sub-det dis-det">
+          &#10007; Unlimited Private Projects
+        </span>
+        <span className="sub-det dis-det">
+          &#10007; Dedicated Phone Support
+        </span>
         <span className="sub-det dis-det">&#10007; Free Subdomain</span>
         <span className="sub-det dis-det">&#10007; Monthly Status Reports</span>
 
@@ -35,7 +39,7 @@ function MyCard(props) {
         <span className="sub-det">&#10003; 5 Users</span>
         <span className="sub-det">&#10003; 50GB Storage</span>
         <span className="sub-det">&#10003; Unlimited Public Projects</span>
-        <span className="sub-det">&#10003;  Community Access</span>
+        <span className="sub-det">&#10003; Community Access</span>
         <span className="sub-det">&#10003; Unlimited Private Projects</span>
         <span className="sub-det">&#10003; Dedicated Phone Support</span>
         <span className="sub-det">&#10003; Free Subdomain</span>
